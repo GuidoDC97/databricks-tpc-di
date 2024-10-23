@@ -104,8 +104,7 @@
         "node_type_id": "{{ worker_node_type }}",
         "num_workers": {{ worker_node_count }},
         "enable_elastic_disk": true,
-        "data_security_mode": "SINGLE_USER",
-        "runtime_engine": "PHOTON"
+        "data_security_mode": "SINGLE_USER"
       }
     }
   ],
